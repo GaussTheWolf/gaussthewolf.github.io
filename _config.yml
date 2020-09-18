@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+sass:
+    sass_dir: assets
+
+
 title: Gauss 
 description: >- # this means to ignore newlines until "baseurl:"
   The only thing I know for sure is that I don't know what I'm doing.
