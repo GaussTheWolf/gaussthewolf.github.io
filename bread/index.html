@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Glitch bread</title>
+	</head>
+	<body>
+		<div id="bm" style="width:40%;">
+			
+		</div>
+		<p>Breading speed</p>
+		<input id="slider" type="range" min="0.1" max="15" step="0.1"  value="1">
+		<script src="lottie.js"></script>
+		<script src="glitch.js"></script>
+		<script charset="utf-8" type="text/javascript">
+			var animation = lottie.loadAnimation({
+				container: document.getElementById('bm'),
+				renderer: 'svg',
+				loop: true,
+				autoplay: true,
+				animationData: glitch
+			});
+			var slider = document.getElementById("slider");
+			slider.oninput = function() {
+				animation.setSpeed(this.value);
+			}
+		</script>
+	</body>
+</html>
