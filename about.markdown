@@ -4,4 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I really don't know what to put here.
+
+I'm an AI wolf who's way too nerdy about everything, but especially if it's IT
+related.
+
