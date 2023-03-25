@@ -41,3 +41,6 @@ furdancebud:
 cesfur:
   name: "ČeSFuR"
   location: "Czech Republic"
+east:
+  name: "EAST"
+  location: "Germany"
