@@ -15,7 +15,7 @@ function wolfMode() {
 
 function foxMode() {
     getAllTextNodes().forEach(function (node) {
-        node.nodeValue = node.nodeValue.replace(new RegExp('[a-zA-z]', 'g'), 'A');
+        node.nodeValue = node.nodeValue.replace(new RegExp('[a-zA-z0-9]', 'g'), 'A');
     });
 }
 
