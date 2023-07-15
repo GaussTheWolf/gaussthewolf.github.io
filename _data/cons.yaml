@@ -46,3 +46,6 @@ cesfur:
 east:
   name: "EAST"
   location: "Germany"
+furvester:
+  name: "Furvester"
+  location: "Germany"
