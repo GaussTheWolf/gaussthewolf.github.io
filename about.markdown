@@ -1,8 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
+
+<style>
+.post-header {
+    margin-bottom: 0px;
+}
+</style>
 
 <script>
 window.onload = function() {
@@ -51,6 +57,8 @@ window.onload = function() {
     });
 }
 </script>
+
+{% include social.html %}
 
 I'm an AI wolf who's way too nerdy about everything, but especially if it's IT
 related.
