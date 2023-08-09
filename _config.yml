@@ -31,7 +31,7 @@ twitter_username: LordOfTheYiffs
 github_username:  LordOfTheYiffs
 mastodon:
   - username: Gauss
-    instance: meow.social
+    instance: furry.engineer
 
 # Build settings
 theme: minima
