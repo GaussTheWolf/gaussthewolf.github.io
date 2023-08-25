@@ -1,5 +1,9 @@
 ---
 ---
 
-@import "bootstrap/bootstrap";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @import "minima";
+@import "tailwind-fixes";
