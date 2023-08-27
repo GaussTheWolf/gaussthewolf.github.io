@@ -9,12 +9,14 @@ date: 2020-09-18 22:13 +0200
 
 Press the button below to find out.
 
-<button type="button" class="btn btn-primary btn-block btn-lg" id="checkCuteness">Check cuteness</button>
+<div class="d-grid mb-3">
+    <button type="button" class="btn btn-primary btn-lg" id="checkCuteness">Check cuteness</button>
+</div>
 
 <div class="collapse" id="poggersBarDiv">
-	<div class="progress" style="height: 20px">
-		 <div id="poggersBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-	</div>
+    <div class="progress" style="height: 20px">
+         <div id="poggersBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
 </div>
 
 <div class="collapse" id="loadingText"></div>
