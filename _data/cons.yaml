@@ -22,30 +22,35 @@ nfc24:
   name: "Nordic Fuzzcon 2024"
   from: "2024"
   location: "Sweden"
-fursang:
-  name: "Fursang"
-  location: "Budapest, Hungary"
 cfz:
   name: "Confuzzled"
   location: "England"
-fwh:
-  name: "Furry Weekend Holland"
-  location: "Netherlands"
 ref:
   name: "Reffurence"
   location: "Belgium"
-furway:
-  name: "Furway"
-  location: "Norway"
-furgether:
-  name: "Furgether"
-  location: "Austria"
+fursang:
+  name: "Fursang"
+  location: "Budapest, Hungary"
 cesfur:
   name: "ČeSFuR"
   location: "Czech Republic"
 east:
   name: "EAST"
   location: "Germany"
+  maybe: true
 furvester:
   name: "Furvester"
   location: "Germany"
+  maybe: true
+fwh:
+  name: "Furry Weekend Holland"
+  location: "Netherlands"
+  maybe: true
+furway:
+  name: "Furway"
+  location: "Norway"
+  maybe: true
+furgether:
+  name: "Furgether"
+  location: "Austria"
+  maybe: true

@@ -27,7 +27,13 @@ window.onload = function() {
 
         if (con.from == undefined && con.to == undefined) {
             // Absence of from-to values means con is only an idea
-            status.innerHTML = "Hopes and dreams";
+            if (con.maybe == true) {
+                // Am unsure if I'll ever go; basically here as an idea dump
+                status.innerHTML = "Perhaps?";
+            } else {
+                // I wanna go one day, just don't know when
+                status.innerHTML = "Hopes and dreams";
+            }
             return;
         }
         let from = new Date(con.from);
