@@ -20,8 +20,13 @@ furdancebud:
   location: "Budapest, Hungary"
 nfc24:
   name: "Nordic Fuzzcon 2024"
+  from: 2024-02-20
+  to: 2024-02-25
+  location: "Malmö, Sweden"
+ef28:
+  name: "Eurofurence 28"
   from: "2024"
-  location: "Sweden"
+  location: "Hamburg, Germany"
 cfz:
   name: "Confuzzled"
   location: "England"
