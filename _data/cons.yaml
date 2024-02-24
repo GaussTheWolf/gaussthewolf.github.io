@@ -25,7 +25,8 @@ nfc24:
   location: "Malmö, Sweden"
 ef28:
   name: "Eurofurence 28"
-  from: "2024"
+  from: "2024-09-17"
+  to: "2024-09-22"
   location: "Hamburg, Germany"
 cfz:
   name: "Confuzzled"
