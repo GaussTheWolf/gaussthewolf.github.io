@@ -31,6 +31,9 @@ ef28:
 cfz:
   name: "Confuzzled"
   location: "England"
+awoostria:
+  name: "Awoostria"
+  location: "Wien, Austria"
 ref:
   name: "Reffurence"
   location: "Belgium"
@@ -62,4 +65,8 @@ furway:
 furgether:
   name: "Furgether"
   location: "Austria"
+  maybe: true
+gdakon:
+  name: "Gdakon"
+  location: "Poland"
   maybe: true
