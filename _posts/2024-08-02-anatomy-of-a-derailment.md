@@ -21,7 +21,7 @@ footage to YouTube on April 23rd. He also provided the footage to authorities,
 and sent it to a local news station.
 
 Months later, he was charged with intentionally derailing a train. If convicted,
-he could be sentenced to 7 years in jail and fined up to 5,000 US dollars.
+he could go to prison for a long time.
 
 ### Some facts about the case
 
@@ -158,9 +158,9 @@ about what exactly happened, but I've been unable to find it.
 I've seen many videos about this incident, and so many people going after the
 kid, attacking and insulting him. To those people I'd like to say this: he has
 been charged, and a court will determine whether he's guilty or innocent, and
-how much punishment he deserves. He's facing 7 years in jail, and if you have
-any faith in the justice system, you should trust that the truth will come out,
-and that the punishment will be fair.
+how much punishment he deserves. He's facing serious prison time, and if you
+have any faith in the justice system, you should trust that the truth will come
+out, and that the punishment will be fair.
 
 So if you're the type of person that wants to go after this kid, let me make
 something crystal clear. There are 2 possibilities:
