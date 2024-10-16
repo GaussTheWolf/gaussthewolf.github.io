@@ -28,6 +28,11 @@ ef28:
   from: "2024-09-17"
   to: "2024-09-22"
   location: "Hamburg, Germany"
+nfc25:
+  name: "Nordic Fuzzcon 2025"
+  from: 2025-02-18
+  to: 2025-02-24
+  location: "Malmö, Sweden"
 cfz:
   name: "Confuzzled"
   location: "England"
