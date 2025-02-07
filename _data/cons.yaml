@@ -33,12 +33,20 @@ nfc25:
   from: 2025-02-18
   to: 2025-02-24
   location: "Malmö, Sweden"
+furdancebud:
+  name: "Furdance Budapest"
+  from: 2025-09-26
+  to: 2025-09-28
+  location: "Budapest, Hungary"
 cfz:
   name: "Confuzzled"
   location: "England"
 awoostria:
   name: "Awoostria"
   location: "Wien, Austria"
+tfi:
+  name: "Tropical Furry Islands"
+  location: "Berlin, Germany"
 ref:
   name: "Reffurence"
   location: "Belgium"
