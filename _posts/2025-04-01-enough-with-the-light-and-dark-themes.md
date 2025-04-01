@@ -4,6 +4,12 @@ title: Enough with the light and dark themes
 date: 2025-04-01 00:00 +0200
 ---
 
+<style>
+body {
+    background-color: #696969;
+}
+</style>
+
 I think everyone **a**t this point has heard of the debate around whether it is
 the light or the dark theme that's better. Dark theme users swear by it, and
 shun anyone who dares to use light theme, while light theme users believe that
