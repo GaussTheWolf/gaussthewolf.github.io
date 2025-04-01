@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Enough with the light and dark themes
-date: 2025-04-01 00:00 +0200
+date: 2025-04-01 00:00 +0000
 ---
 
 <style>
