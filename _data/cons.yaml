@@ -83,3 +83,7 @@ gdakon:
   name: "Gdakon"
   location: "Poland"
   maybe: true
+furrytramfrankfurt:
+  name: "FurryTram Frankfurt"
+  location: "Frankfurt, Germany"
+  maybe: true
