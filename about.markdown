@@ -54,13 +54,12 @@ window.onload = function() {
         }
         if (to < now) {
             // Con is in the past
-            console.log(to);
             status.innerHTML = "Been there, done that";
             row.classList = "table-info";
             return;
         }
 
-        console.log("If you see this message, tell Gauss his code is broken");
+        console.error("If you see this message, tell Gauss his code is broken");
     });
 }
 </script>
