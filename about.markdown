@@ -12,7 +12,7 @@ navbar: true
 </style>
 
 <script>
-window.onload = function() {
+window.addEventListener('load', function() {
     let cons = {{ page.cons }};
     let cons_table = document.getElementById('cons_tbody');
     const now = Date.now();
@@ -61,7 +61,7 @@ window.onload = function() {
 
         console.error("If you see this message, tell Gauss his code is broken");
     });
-}
+}, false);
 </script>
 
 {% include social.html %}

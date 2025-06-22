@@ -6,7 +6,7 @@ layout: default
     {%- if site.codes.size > 0 -%}
     <div class="d-flex justify-content-center">
         <h5 class="text-center m-5 font-monospace">
-            <a href="/codes/" class="gay text-decoration-none"
+            <a href="/codes.html" class="gay text-decoration-none"
                 >{{ page.post_title | default: 'Me when writing code' }}</a
             >
         </h5>
@@ -28,14 +28,14 @@ layout: default
     {%- endfor -%}
 
     {%- if site.codes.size > 5 -%}
-    <p class="text-end"><a href="/codes/">More >>></a></p>
+    <p class="text-end"><a href="/codes.html">More >>></a></p>
     {%- endif -%}
     {%- endif -%}
 
     {%- if site.posts.size > 0 -%}
     <div class="d-flex justify-content-center">
         <h5 id="writingwords" class="text-center m-5 fw-light fst-italic">
-            <a href="/posts/" class="gay text-decoration-none"
+            <a href="/posts.html" class="gay text-decoration-none"
                 >{{ page.post_title | default: 'Me when writing words' }}</a
             >
         </h5>
@@ -57,7 +57,7 @@ layout: default
     {%- endfor -%}
 
     {%- if site.posts.size > 5 -%}
-    <p class="text-end"><a href="/posts/">More >>></a></p>
+    <p class="text-end"><a href="/posts.html">More >>></a></p>
     {%- endif -%}
     {%- endif -%}
 
