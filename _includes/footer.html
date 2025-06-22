@@ -1,0 +1,29 @@
+<footer class="border-top mt-auto">
+    <div class="container width-limit px-3">
+        <div class="h5 pt-4">{{ site.title | escape }}</div>
+
+        <div class="row">
+            <div class="col col-lg-4">
+                <ul class="list-unstyled">
+                    <li class="text-secondary">
+                        {% if site.frankotitle %}
+			{{ site.frankotitle | escape}}
+			{% endif %}
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-4">
+		{%- include social.html -%}
+	    </div>
+            <div class="col col-lg-4">
+                <ul class="list-unstyled">
+                    <li class="text-secondary">
+                        {% if site.description %}
+			{{ site.description | escape}}
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

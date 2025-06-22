@@ -1,9 +1,0 @@
-// Fixes the navigation bar
-.site-nav label {
-    display: inline;
-}
-
-// Not ideal, but it messes up the entire theme
-*, ::before, ::after {
-    box-sizing: inherit;
-}

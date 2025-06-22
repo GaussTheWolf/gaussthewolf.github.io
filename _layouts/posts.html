@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="container col-sm-6 mt-3">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+</div>
+
+{{ content }}
+
+<div class="row">
+    {%- if site.posts.size > 0 -%}
+    <h5 class="text-center mt-5 mb-5 fw-light fst-italic">
+        {{ page.post_title | default: "Me when writing words" }}
+    </h5>
+    {%- for post in site.posts -%}
+    <div class="col-sm-4 mb-4">
+        <a
+            href="{{ post.url | relative_url }}"
+            class="article card mb-2 link-underline-opacity-0 link-underline h-100"
+        >
+            <div class="hover-overlay card-body p-2 d-flex align-items-center">
+                {%- assign date_format = site.date_format | default: '%Y-%m-%d' -%}
+                <div>
+                    <p class="d-inline-block card-subtitle text-body-secondary">
+                        {{ post.date | date: date_format }} •
+                    </p>
+                    <h6 class="d-inline-block card-title mb-0">
+                        {{ post.title }}
+                    </h6>
+                </div>
+            </div>
+            <div class="mask"></div>
+        </a>
+    </div>
+    {%- endfor -%}
+    {%- endif -%}
+</div>

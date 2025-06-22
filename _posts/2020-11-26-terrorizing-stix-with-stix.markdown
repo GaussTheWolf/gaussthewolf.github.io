@@ -117,4 +117,4 @@ You can download the data from [here](/assets/stix_terrorism_data.zip){:target="
 
 # Happy ~~Stixiversary~~ ~~thanksgiving~~ Stixgiving!
 
-![Stixgiving](/assets/stixgiving.jpg)
+<img src="/assets/stixgiving.jpg" alt="Stixgiving" class="img-fluid">

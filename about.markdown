@@ -2,6 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
+navbar: true
 ---
 
 <style>
