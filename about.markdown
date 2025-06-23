@@ -66,8 +66,8 @@ window.addEventListener('load', function() {
 
 {% include social.html %}
 
-I'm an AI wolf who's way too nerdy about everything, but especially if it's IT
-related.
+Full-time coder, fuller-time wolf, sometimes a photografur. Way too nerdy about
+everything, but especially if it's related to computers (or trains).
 
 I am (unfortunately still) Hungarian, but I'm working on it. You may find me
 IRL wandering around certain conventions:
