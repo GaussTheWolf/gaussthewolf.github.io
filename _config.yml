@@ -12,6 +12,12 @@ footer_icons:
   - username: Gauss
     url: https://furry.engineer/@Gauss
     icon: mastodon
+  - username: gauss.gay
+    url: https://bsky.app/profile/gauss.gay
+    icon: bluesky
+  - username: fedi.gauss.gay
+    url: https://bsky.app/profile/fedi.gauss.gay
+    icon: bluesky
   - username: GaussTheWolf
     url: https://github.com/GaussTheWolf
     icon: github
