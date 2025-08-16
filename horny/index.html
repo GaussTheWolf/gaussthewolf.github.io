@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hornylist</title>
+    <script type="text/javascript" src="assets/horny.js"></script>
+    <script type="text/javascript" src="assets/horny.css.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      const pw = (new URLSearchParams(window.location.search)).get('pw');
+      const crypto = window.crypto;
+      var errored = false;
+
+      async function aesDecrypt(encrypted, key, iv) {
+          const decrypted = await crypto.subtle.decrypt({
+            name: 'AES-GCM',
+            iv,
+          }, key, Uint8Array.fromBase64(encrypted));
+
+          return decrypted;
+        }
+
+        async function pbkdf2Key(pass, salt, iterations = 1000, length = 256) {
+          const ec = new TextEncoder();
+          const keyMaterial = await crypto.subtle.importKey(
+            'raw',
+            ec.encode(pass),
+            'PBKDF2',
+            false,
+            ['deriveKey']);
+          const key = await crypto.subtle.deriveKey({
+            name: 'PBKDF2',
+            hash: 'SHA-512',
+            salt: ec.encode(salt),
+            iterations,
+          }, keyMaterial, {
+            name: 'AES-GCM',
+            length,
+          }, true, ['encrypt', 'decrypt']);
+          return key;
+        }
+
+      function errorHandler() {
+          // Make sure this function only runs once (in theory?)
+          if(errored == false) errored = true;
+          else return;
+
+          const app = document.getElementById('app');
+          var errorImage = document.createElement('img');
+          errorImage.src = './assets/error.jpg';
+          errorImage.style = 'display:block;margin-left:auto;margin-right:auto;width:35%;';
+          app.appendChild(errorImage);
+      }
+
+      pbkdf2Key(pw, jssalt).then((key) => {
+          aesDecrypt(jsencrypted, key, jsiv).then((decrypted) => {
+              const decryptedjs = new TextDecoder().decode(decrypted);
+              eval(decryptedjs);
+          }).catch(errorHandler);
+      }).catch(errorHandler);
+      pbkdf2Key(pw, csssalt).then((key) => {
+          aesDecrypt(cssencrypted, key, cssiv).then((decrypted) => {
+              const decryptedcss = new TextDecoder().decode(decrypted);
+              var style = document.createElement('style');
+              style.innerHTML = decryptedcss;
+              document.head.appendChild(style);
+          }).catch(errorHandler);
+      }).catch(errorHandler);
+    </script>
+  </body>
+</html>
