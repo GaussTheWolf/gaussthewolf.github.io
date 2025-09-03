@@ -19,7 +19,7 @@
           const decrypted = await crypto.subtle.decrypt({
             name: 'AES-GCM',
             iv,
-          }, key, Uint8Array.fromBase64(encrypted));
+          }, key, Uint8Array.from(atob(encrypted), c => c.charCodeAt(0)));
 
           return decrypted;
         }
