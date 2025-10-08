@@ -38,6 +38,11 @@ furdancebud25:
   from: 2025-09-26
   to: 2025-09-28
   location: "Budapest, Hungary"
+nfc26:
+  name: "Nordic Fuzzcon 2026"
+  from: 2026-02-17
+  to: 2026-02-23
+  location: "Malmö, Sweden"
 cfz:
   name: "Confuzzled"
   location: "England"
