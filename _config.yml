@@ -7,6 +7,7 @@ description: >-
 baseurl: ""
 url: ""
 github_username: GaussTheWolf
+mastodon_username: "@Gauss@furry.engineer"
 
 footer_icons:
   - username: Gauss

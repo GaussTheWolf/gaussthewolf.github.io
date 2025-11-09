@@ -10,7 +10,7 @@
     {% endif %}
     {% for footer_icon in site.footer_icons %}
     <li class="pb-2">
-        <a class="text-decoration-none" href="{{ footer_icon.url }}" target="_blank">
+        <a rel="me" class="text-decoration-none" href="{{ footer_icon.url }}" target="_blank">
             {% if footer_icon.icon %}
             {% capture icon%}{% include icons/{{footer_icon.icon}}.svg %}{% endcapture %}
             <span class="text-secondary pe-2">{{ icon | strip }}</span>
