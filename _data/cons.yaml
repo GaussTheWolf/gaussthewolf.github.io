@@ -1,50 +1,60 @@
 ef26:
   name: "Eurofurence 26"
+  type: "EF"
   from: 2022-08-24
   to: 2022-08-28
   location: "Berlin, Germany"
 nfc23:
   name: "Nordic Fuzzcon 2023"
+  type: "NFC"
   from: 2023-02-22
   to: 2023-02-26
   location: "Malmö, Sweden"
 ef27:
   name: "Eurofurence 27"
+  type: "EF"
   from: 2023-09-02
   to: 2023-09-08
   location: "Hamburg, Germany"
-furdancebud23:
-  name: "Furdance Budapest"
+furdbud23:
+  name: "Furdance Budapest 2023"
+  type: "FurDBud"
   from: 2023-09-29
   to: 2023-10-01
   location: "Budapest, Hungary"
 nfc24:
   name: "Nordic Fuzzcon 2024"
+  type: "NFC"
   from: 2024-02-20
   to: 2024-02-25
   location: "Malmö, Sweden"
 ef28:
   name: "Eurofurence 28"
-  from: "2024-09-17"
-  to: "2024-09-22"
+  type: "EF"
+  from: 2024-09-17
+  to: 2024-09-22
   location: "Hamburg, Germany"
 nfc25:
   name: "Nordic Fuzzcon 2025"
+  type: "NFC"
   from: 2025-02-18
   to: 2025-02-24
   location: "Malmö, Sweden"
-furdancebud25:
-  name: "Furdance Budapest"
+furdbud25:
+  name: "Furdance Budapest 2025"
+  type: "FurDBud"
   from: 2025-09-26
   to: 2025-09-28
   location: "Budapest, Hungary"
 nfc26:
   name: "Nordic Fuzzcon 2026"
+  type: "NFC"
   from: 2026-02-17
   to: 2026-02-23
   location: "Malmö, Sweden"
 cfz:
   name: "Confuzzled"
+  type: "CFz"
   location: "England"
 furizon:
   name: "Furizon"
