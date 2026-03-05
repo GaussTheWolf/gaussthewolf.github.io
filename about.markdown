@@ -69,6 +69,9 @@ window.addEventListener('load', function() {
 Full-time coder, fuller-time wolf, sometimes a photografur. Way too nerdy about
 everything, but especially if it's related to computers (or trains).
 
+On this website: blobfox :blobfox: and wlf :wlf: and probably all other emojis
+belong to [Volpeon](https://volpeon.ink/emojis/).
+
 I am (unfortunately still) Hungarian, but I'm working on it. You may find me
 IRL wandering around certain conventions:
 

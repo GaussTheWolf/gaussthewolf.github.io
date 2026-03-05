@@ -6,7 +6,7 @@ module Jekyll
   module FurrEmoji
     def furrify(input)
       # Find all emojis between two double dots
-      input.gsub(/:[a-z_]+:/) { |e|
+      input.gsub(/:[a-zA-Z_]+:/) { |e|
         "<img class=\"emoji\" title=\"#{e}\" alt=\"#{e}\" src=\"/assets/emoji/#{e.gsub(':', '')}.png\"/>"
       }
     end
