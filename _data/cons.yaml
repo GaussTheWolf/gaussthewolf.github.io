@@ -58,6 +58,12 @@ ef30:
   from: 2026-08-18
   to: 2026-08-23
   location: "Hamburg, Germany"
+furdbud26:
+  name: "Furdance Budapest 2026"
+  type: "FurDBud"
+  from: 2026-09-11
+  to: 2026-09-13
+  location: "Budapest, Hungary"
 cfz:
   name: "Confuzzled"
   type: "CFz"
