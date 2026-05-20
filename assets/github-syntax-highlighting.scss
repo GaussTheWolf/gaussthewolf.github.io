@@ -1,0 +1,118 @@
+@import "github-syntax-highlighting-light";
+@import "github-syntax-highlighting-dark";
+
+/* The base file was generated using `rougify style github` */
+/* Then I added dark and light mode support */
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: var(--github-w-color);
+  background-color: var(--github-w-background-color);
+}
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv {
+  color: var(--github-k-color);
+}
+.highlight .gr {
+  color: var(--github-gr-color);
+}
+.highlight .gd {
+  color: var(--github-gd-color);
+  background-color: var(--github-gd-background-color);
+}
+.highlight .nb {
+  color: var(--github-nb-color);
+}
+.highlight .nc {
+  color: var(--github-nc-color);
+}
+.highlight .no {
+  color: var(--github-no-color);
+}
+.highlight .nn {
+  color: var(--github-nn-color);
+}
+.highlight .sr {
+  color: var(--github-sr-color);
+}
+.highlight .na {
+  color: var(--github-na-color);
+}
+.highlight .nt {
+  color: var(--github-nt-color);
+}
+.highlight .gi {
+  color: var(--github-gi-color);
+  background-color: var(--github-gi-background-color);
+}
+.highlight .kc {
+  color: var(--github-kc-color);
+}
+.highlight .l, .highlight .ld, .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: var(--github-l-il-m-color);
+}
+.highlight .sb {
+  color: var(--github-sb-color);
+}
+.highlight .bp {
+  color: var(--github-bp-color);
+}
+.highlight .ne {
+  color: var(--github-ne-color);
+}
+.highlight .nl {
+  color: var(--github-nl-color);
+}
+.highlight .py {
+  color: var(--github-py-color);
+}
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: var(--github-nv-v-color);
+}
+.highlight .o, .highlight .ow {
+  color: var(--github-o-color);
+}
+.highlight .gh {
+  color: var(--github-gh-color);
+  font-weight: bold;
+}
+.highlight .gu {
+  color: var(--github-gu-color);
+  font-weight: bold;
+}
+.highlight .s, .highlight .sa, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .sx, .highlight .s1, .highlight .ss {
+  color: var(--github-s-color);
+}
+.highlight .nd {
+  color: var(--github-nd-color);
+}
+.highlight .nf, .highlight .fm {
+  color: var(--github-nf-fm-color);
+}
+.highlight .err {
+  color: var(--github-err-color);
+  background-color: var(--github-err-background-color);
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cp, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: var(--github-c-color);
+}
+.highlight .gl {
+  color: var(--github-gl-color);
+}
+.highlight .gt {
+  color: var(--github-gt-color);
+}
+.highlight .ni {
+  color: var(--github-ni-color);
+}
+.highlight .si {
+  color: var(--github-si-color);
+}
+.highlight .ge {
+  color: var(--github-ge-color);
+  font-style: italic;
+}
+.highlight .gs {
+  color: var(--github-gs-color);
+  font-weight: bold;
+}
+

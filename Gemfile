@@ -26,3 +26,6 @@ gem "base64", "~> 0.2.0"
 gem "jekyll-seo-tag", "~> 2.8"
 
 gem "jekyll-compose", "~> 0.12.0"
+
+gem "kramdown", "~> 2.5"
+gem "rogue", "~> 0.1.1"
