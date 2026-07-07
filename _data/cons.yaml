@@ -40,12 +40,6 @@ nfc25:
   from: 2025-02-18
   to: 2025-02-24
   location: "Malmö, Sweden"
-awoo26:
-  name: "Awoostria 2026"
-  type: "Awoo"
-  from: 2026-08-24
-  to: 2026-08-26
-  location: "Wien, Austria"
 furdbud25:
   name: "Furdance Budapest 2025"
   type: "FurDBud"
@@ -58,6 +52,12 @@ nfc26:
   from: 2026-02-17
   to: 2026-02-23
   location: "Malmö, Sweden"
+awoo26:
+  name: "Awoostria 2026"
+  type: "Awoo"
+  from: 2026-07-24
+  to: 2026-07-26
+  location: "Wien, Austria"
 ef30:
   name: "Eurofurence 30"
   type: "EF"
